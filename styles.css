@@ -118,7 +118,7 @@ html::-webkit-scrollbar-thumb {
 
 .home h1{
     font-size: 7rem;
-    color: #98a0ce;
+    color: var(--third-color);
     margin-top: 40px;
     margin-left: 2rem;
 }
@@ -144,32 +144,26 @@ html::-webkit-scrollbar-thumb {
 
 
 /*! projects start*/
-.projects{
+.projects .buttons{
     min-height: 100dvh;
-    align-items: center;
-    background: url(images/proje.jpg);
-    background-size: cover;
-    background-position: center;
-
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
 }
 
-.projects button{
+.projects .buttons button{
     font-size: 3rem;
     background-color: var(--third-color);
-    border-color: var(--main-color) 0.5rem;
     padding: 2rem 3.75rem;
-    display: inline-block;
     border-radius: 3.5rem;
     color: white;
     cursor: pointer;
     align-items: center;
     margin-top: 30rem;
     margin-bottom: 30rem;
-    margin-left: 20rem;
-    
 }
 
-.projects button:hover{
+.projects .buttons button:hover{
     background-color: #98a0ce;
     color: var(--third-color);
 }
@@ -276,6 +270,7 @@ html::-webkit-scrollbar-thumb {
     color: white;
     font-size: 2rem;
     padding-left: 2rem;
+    padding-right: 1.5rem;
 }
 
 .contact .row form .inputBox input{
@@ -299,3 +294,70 @@ html::-webkit-scrollbar-thumb {
 }
 
 /*! contact end*/
+
+
+/*! footer start*/
+.footer{
+    background-color: black;
+    text-align: center;
+}
+
+.footer .search{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer .search .search-input{
+    width: 20rem;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin: 3rem 0;
+}
+
+.footer .search .btn{
+    font-size: 1.5rem;
+    background-color: var(--third-color);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    margin: 3rem 0;
+}
+
+.footer .search .btn:hover{
+    background-color: white;
+    color: var(--third-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+ .footer .links a{
+    font-size: 2rem;
+    color: var(--fifth-color);
+    background-color: var(--second-color);
+    padding: 1rem 1.5rem;
+    margin-bottom: 3rem;
+ }
+
+ .footer .links a:hover{
+    color: var(--second-color);
+    background-color: var(--fifth-color);
+ }
+
+ .footer .credit{
+    color: white;
+    background-color: none;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+ }
+
+ .footer .credit span{
+    color: var(--fifth-color);
+ }
+/*! footer end*/
