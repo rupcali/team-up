@@ -9,5 +9,6 @@ A website for finding teammates.
 ![Screenshot 3](screenshots/website3.png)
 ![Screenshot 4](screenshots/website4.png)
 ![Screenshot 5](screenshots/website5.png)
+![Screenshot 6](screenshots/website6.png)
 
 
