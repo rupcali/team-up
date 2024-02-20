@@ -2,7 +2,7 @@
 ## About
 
 A website for finding teammates.
-The Team Up website is a platform designed to facilitate collaboration and networking among members of GDSC chapters worldwide. The primary features of the website include:
+The Team Up website is a platform designed to facilitate collaboration and networking. The primary features of the website include:
 
 - **Profile Creation:** Members can create personalized profiles showcasing their skills, interests, and projects.
 - **Project Listing:** Users can list their projects, providing details such as project descriptions, technologies used, and team members.
